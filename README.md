@@ -28,6 +28,7 @@ Then add `mvu` to your fusesoc libraries:
     
     git clone https://github.com/obilaniu/MVU.git
     cd MVU
+    git submodule update --init --recursive 
     fusesoc library add mvu .
 	
 Generate the required IP components. For Xilinx Vivado, do the following:
